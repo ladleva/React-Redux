@@ -6,8 +6,7 @@ export default function tracks(state = initialState, action) {
             ...state,
             action.payload
         ];
-    } else if (action.type === 'DELETE_TRACK') {
+    } else {
         return state;
     }
-    return state;
 };
